@@ -12,7 +12,7 @@
 .why-img-container {
   width: 70%;
   height: 600px;
-  background-image: url("/images/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg");
+  background-image: url("images/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }

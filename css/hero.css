@@ -2,7 +2,7 @@
 .hero-section {
   width: 100%;
   height: 91vh;
-  background-image: url('/images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg');
+  background-image: url("images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg");
   background-size: cover;
   background-position: center;
   padding: 70px 50px;
