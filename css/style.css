@@ -1,0 +1,164 @@
+@import "navbar.css";
+@import "hero.css";
+@import "article.css";
+@import "about-us.css";
+@import "category.css";
+@import "author.css";
+@import "join-us.css";
+@import "footer.css";
+@import "why-started.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sen', sans-serif;
+  color: #232536;
+  font-size: 16px;
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  /* line-height: 54px; */
+}
+
+h2 {
+  font-size: 36px;
+  /* line-height: 48px; */
+}
+
+h3 {
+  font-size: 28px;
+  /* line-height: 36px; */
+}
+
+h4 {
+  font-size: 22px;
+  /* line-height: 32px; */
+}
+
+h5 {
+  font-size: 18px;
+  /* line-height: 32px; */
+}
+
+h6 {
+  font-size: 16px;
+  /* line-height: 24px; */
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+}
+
+h4 a {
+  transition: all 0.5s ease;
+}
+
+h4 a:hover {
+  color: #4c4c4c;
+}
+
+input {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #232536;
+}
+
+.cta {
+  color: #232536;
+}
+
+button {
+  padding: 12px 45px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.primary-btn {
+  background: #fff;
+  color: #232536;
+  display: inline-block;
+}
+
+.primary-btn:hover {
+  background: #ffd050;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: #ffd050;
+  color: #232536;
+  display: inline-block;
+}
+
+.secondary-btn:hover {
+  background: #ffb43a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yellow-color {
+  color: #ffd050;
+}
+
+.purple-color {
+  color: #592ea9;
+}
+
+.orange-color {
+  color: #ffb43a;
+}
+
+.container {
+  margin: 0 50px 70px 50px;
+}
+
+.margin-twen {
+  margin: 20px 0;
+}
+
+.margin-ten {
+  margin: 10px 0;
+}
+
+.see-more {
+  transition: all 0.5s ease;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+.non-dec-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .container {
+    margin: 0 30px 70px 30px;
+  }
+}
+
+
+

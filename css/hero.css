@@ -1,0 +1,80 @@
+/* -------------HERO START------------ */
+.hero-section {
+  width: 100%;
+  height: 91vh;
+  background-image: url('/images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 70px 50px;
+  margin-bottom: 70px;
+}
+
+.hero-detail {
+  width: 50%;
+  color: #fff;
+  text-shadow: 0 0 2px black;
+}
+
+.hero-detail p {
+  color: #fff;
+}
+
+.hero-category {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-author {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero-paragraph {
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+@media screen and (max-width: 1300px) {
+  .hero-detail {
+    width: 70%;
+  }
+
+  .hero-paragraph {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero-section {
+    padding: 40px 50px;
+  }
+
+  .hero-detail {
+    width: 70%;
+  }
+
+  .hero-category {
+    margin-bottom: 20px;
+  }
+
+  .hero-paragraph {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero-section {
+    padding: 30px;
+  }
+
+  .hero-detail {
+    width: 90%;
+  }
+
+  .hero-paragraph {
+    width: 100%;
+  }
+}
+
+/* -------------HERO END------------ */

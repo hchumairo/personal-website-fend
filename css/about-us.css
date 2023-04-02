@@ -1,0 +1,76 @@
+/* ----------ABOUT US START--------- */
+
+.color-line {
+  display: grid;
+  grid-template: 15px / 2fr 8fr 3fr;
+}
+
+.white-background {
+  background: #fff;
+}
+
+.yellow-background {
+  background: #ffd050;
+}
+
+.purple-background {
+  background: #592ea9;
+}
+
+.about-us-detail {
+  background: #f4f4f4;
+  display: flex;
+  padding: 50px;
+}
+
+.about-us,
+.our-mission {
+  flex: 1;
+}
+
+.about-us h4 {
+  font-size: 30px;
+  width: 87%;
+}
+
+.about-us p {
+  width: 85%;
+}
+
+.our-mission h4 {
+  width: 75%;
+}
+
+.our-mission p {
+  width: 94%;
+}
+
+@media (max-width: 950px) {
+  .about-us-detail {
+    flex-direction: column;
+  }
+
+  .about-us {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .our-mission {
+    padding-top: 15px;
+  }
+
+  .about-us h4,
+  .about-us p ,
+  .our-mission h4,
+  .our-mission p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-us-detail {
+    padding: 1.5em;
+  }
+}
+
+/* ----------ABOUT US END--------- */

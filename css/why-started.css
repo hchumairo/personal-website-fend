@@ -1,0 +1,66 @@
+/* ----------WHY START--------- */
+
+.why-started-section {
+  width: 90%;
+  max-width: 1235px;
+  margin: 0 auto 70px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-img-container {
+  width: 70%;
+  height: 600px;
+  background-image: url("/images/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.why-started-detail {
+  width: 60%;
+  min-height: 450px;
+  padding: 3em;
+  background: #fff;
+  margin-left: -200px;
+  align-self: flex-end;
+}
+
+.why-started-detail h2 {
+  width: 80%;
+}
+
+.why-started-detail p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1300px) {
+  .why-started-detail h2 {
+    width: 85%;
+  }
+}
+
+@media (max-width: 880px) {
+  .why-img-container {
+    width: 100%;
+  }
+
+  .why-started-detail {
+    width: 100%;
+    margin-left: -380px;
+  }
+}
+
+@media (max-width: 700px) {
+  .why-started-section {
+    margin: 0 auto 70px 30px;
+  }
+
+  .why-started-detail {
+    padding: 3em 2em;
+  }
+
+  .why-started-detail h2 {
+    width: 90%;
+  }
+}

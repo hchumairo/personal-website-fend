@@ -1,0 +1,14 @@
+.oth-article h3 {
+  margin-bottom: 30px;
+}
+
+.oth-article-container {
+  display: grid;
+  grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5em;
+}
+
+
+.oth-article-content {
+  padding-right: .5em;
+}
