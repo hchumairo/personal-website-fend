@@ -32,19 +32,19 @@
 }
 
 .first-writer {
-  background-image: url("/images/profile/edward-cisneros-_H6wpor9mjs-unsplash.jpg");
+  background-image: url("../images/profile/edward-cisneros-_H6wpor9mjs-unsplash.jpg");
 }
 
 .second-writer {
-  background-image: url("/images/profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg");
+  background-image: url("../images/profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg");
 }
 
 .third-writer {
-  background-image: url("/images/profile/michael-dam-mEZ3PoFGs_k-unsplash.jpg");
+  background-image: url("../images/profile/michael-dam-mEZ3PoFGs_k-unsplash.jpg");
 }
 
 .forth-writer {
-  background-image: url("/images/profile/prince-akachi-LWkFHEGpleE-unsplash.jpg");
+  background-image: url("../images/profile/prince-akachi-LWkFHEGpleE-unsplash.jpg");
 }
 
 .social-media {
