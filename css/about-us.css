@@ -2,7 +2,7 @@
 
 .color-line {
   display: grid;
-  grid-template: 15px / 2fr 8fr 3fr;
+  grid-template: 10px / 4fr 15fr 6fr;
 }
 
 .white-background {
@@ -29,7 +29,7 @@
 }
 
 .about-us h4 {
-  font-size: 30px;
+  font-size: clamp(1.4rem, 4vw, 1.75rem);
   width: 87%;
 }
 
@@ -45,7 +45,7 @@
   width: 94%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .about-us-detail {
     flex-direction: column;
   }

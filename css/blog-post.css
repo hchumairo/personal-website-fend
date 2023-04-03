@@ -1,13 +1,14 @@
 @import "style.css";
 @import "navbar.css";
+@import "author.css";
 @import "read-next.css";
 @import "join-us.css";
 @import "footer.css";
 
 
-.center-content {
+.center-content, .author-section {
   margin: 0 auto;
-  width: 700px;
+  width: min(700px, 100%);
 }
 
 .author {
@@ -19,14 +20,10 @@
 .author-photo {
   width: 50px;
   height: 50px;
-  background-image: url("images/profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg");
+  background-image: url("../images/profile/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg");
   background-size: cover;
   border-radius: 50%;
   margin-right: 15px;
-}
-
-.author-info h4, .author-info h6 {
-  margin: 3px 0;
 }
 
 .article-detail {
@@ -50,8 +47,7 @@
 }
 
 .main-img-container {
-  width: 90%;
-  max-width: 1100px;
+  width: min(1100px, 100%);
   margin: 0 auto;
 }
 
@@ -71,16 +67,48 @@
   font-weight: bold;
 }
 
+blockquote {
+  border-left: 5px solid #232536;
+  padding: 15px 30px;
+  margin: 20px 0;
+}
+
 blockquote p {
-  width: 600px;
+  width: min(600px, 100%);
+  font-size: clamp(1rem, 3.5vw, 1.1rem);
 }
 
-@media (max-width: 800px) {
-  .center-content {
-    width: 100%;
-  }
-
-  .main-img-container {
-    width: 100%;
-  }
+.author-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5em;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 70px;
+  transition: all .5s ease;
 }
+
+.author-section:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.author-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  height: min(100px, 100%);
+}
+
+.author-photo-bio {
+  width: 75px;
+  height: 75px;
+  margin: 0 0 10px 0;
+}
+
+.author-bio {
+  margin-top: 10px;
+}
+
+

@@ -26,7 +26,7 @@ footer {
 
 input {
   height: 40px;
-  width: 280px;
+  width: min(280px, 82%);
   margin-right: 20px;
   border: none;
   border-radius: 5px;

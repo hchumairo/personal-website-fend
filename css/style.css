@@ -24,37 +24,37 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: clamp(2.5rem, 6vw, 3rem);
   /* line-height: 54px; */
 }
 
 h2 {
-  font-size: 36px;
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
   /* line-height: 48px; */
 }
 
 h3 {
-  font-size: 28px;
+  font-size: clamp(1.25rem, 4.25vw, 1.75rem);
   /* line-height: 36px; */
 }
 
 h4 {
-  font-size: 22px;
+  font-size: clamp(1.13rem, 4vw, 1.38rem);
   /* line-height: 32px; */
 }
 
 h5 {
-  font-size: 18px;
+  font-size: clamp(1rem, 3.5vw, 1.13rem);
   /* line-height: 32px; */
 }
 
 h6 {
-  font-size: 16px;
+  font-size: clamp(.9rem, 3vw, 1rem);
   /* line-height: 24px; */
 }
 
 p {
-  font-size: 16px;
+  font-size: clamp(.9rem, 3vw, 1rem);
   line-height: 24px;
   color: #4c4c4c;
 }
@@ -84,7 +84,7 @@ button {
   padding: 12px 45px;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: clamp(.9rem, 3vw, 1rem);
   font-weight: bold;
   transition: all 0.5s ease;
 }
