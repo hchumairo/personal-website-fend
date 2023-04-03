@@ -6,8 +6,13 @@
 }
 
 .why-img-container {
+<<<<<<< HEAD
   grid-row: 1 / -1;
   grid-column: 1 / 11;
+=======
+  width: 70%;
+  height: 600px;
+>>>>>>> 6d4b861c1b892bb88a36a5ce0699ce39ef5c315f
   background-image: url("../images/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg");
   background-size: cover;
   background-position: center;
